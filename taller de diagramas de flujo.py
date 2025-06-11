@@ -75,7 +75,7 @@ la_lista = [int(input("ingresa un numero ")),int(input("ingresa otro numero ")),
 if la_lista[2] > 10 :
     print("es mayor a 10")
 else :
-    print("no es mayor a 10")
+    print("no es menor o igual a 10")
 #12
 if la_lista[0] == 7:
     print("el 7 sa halla en la lista")
@@ -97,8 +97,8 @@ else :
     print("la resta es menor ")
 #14
 nombres = [(input("ingresa un nombre ")),(input("ingresa otro nombre ")),(input("ingresa otro nombre ")),(input("ingresa otro nombre ")),(input("ingresa otro nombre "))]
-print (nombres)
-if nombres[-1] == "maria":
+print (nombres[4])
+if nombres[-1] == "marta":
     print("nombre correcto")
 else :
     print("nombre diferente ")
@@ -111,9 +111,9 @@ else :
 #16
 t =  (int(input("ingrese un numero ")),int(input("ingrese un numero ")),int(input("ingrese un numero ")),int(input("ingrese un numero ")),int(input("ingrese un numero ")))
 if t[0] > t[-1]:
-    print("lista en orden hacendente")
+    print("Orden hacendente")
 else:
-    print("lista decendente ")
+    print("Orden decendente ")
 #17
 if t[1] > 30 :
     print("edad mayor a treinta")
